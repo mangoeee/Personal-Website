@@ -108,6 +108,10 @@ footer .container {
     justify-content: center;
 }
 
+footer .social.container ul {
+    padding: 0px 0px;
+}
+
 footer .container ul li {
     display: inline;
 }
@@ -118,4 +122,24 @@ ion-icon {
 
 ion-icon:hover {
     color: #01447e;
+}
+
+/* MEDIA QUERIES FOR RESPONSIVENESS */
+/* ---------------------------------------------------*/
+@media only screen and (max-width: 600px) {
+    .home .me.container {
+        display: flex;
+        flex-direction: column;
+        min-width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .main .me.container .blurb.container {
+        display: flex;
+        min-width: 300px;
+        padding: 0px 0px;
+    }
 }

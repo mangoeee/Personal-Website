@@ -157,6 +157,10 @@ footer .social.container {
     justify-content: center;
 }
 
+footer .social.container ul {
+    padding: 0px 0px;
+}
+
 footer .social.container ul li {
     display: inline;
 }
