@@ -198,4 +198,12 @@ ion-icon.social:hover {
         min-width: 300px;
         padding: 0px 0px;
     }
+
+    ion-icon.arrow {
+        display: none;
+    }
+
+    #tech {
+        display: flex;
+    }
 }
