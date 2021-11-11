@@ -102,9 +102,8 @@ footer {
     width: 100%;
 }
 
-footer .container {
+footer .social.container {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -112,16 +111,23 @@ footer .social.container ul {
     padding: 0px 0px;
 }
 
-footer .container ul li {
+footer .social.container ul li {
     display: inline;
 }
 
-ion-icon {
+ion-icon.social {
     color: #111;
+    font-size: 32px;
+
+    transition-property: font-size;
+    transition-timing-function: ease-in;
+    transition-duration: 200ms;
 }
 
-ion-icon:hover {
-    color: #01447e;
+ion-icon.social:hover {
+    color: darkolivegreen;
+
+    font-size: 40px;
 }
 
 /* MEDIA QUERIES FOR RESPONSIVENESS */
