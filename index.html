@@ -9,13 +9,21 @@
     </head>
     <body>
         <nav>
-            <ul class="breadcrumb">
-                <li><a href="#" title="Homepage">home</a></li>
-                <li><a target="_blank" href="./resume.pdf" title="Peep my resume">resume</a></li>
-                <li><a target="_blank" href="https://github.com/mangoeee" title="Emery's GitHub">portfolio</a></li>
-                <li><a href="./blog.html" title="Under Construction, oops.">a blog?</a></li>
-                <li><a href="./contact.html" title="Contact me">let's chat!</a></li>
-            </ul>
+            <div class="wrapper">
+                <div id="open">
+                    <a id="mobile-menu"><ion-icon name="menu-outline"></ion-icon></a>
+                </div>
+                <div id="close">
+                    <a id="mobile-menu"><ion-icon name="chevron-up-outline"></ion-icon></a>
+                </div>
+                <ul id="breadcrumb" class="breadcrumb">
+                    <li><a href="./index.html" title="Homepage">home</a></li>
+                    <li><a target="_blank" href="./resume.pdf" title="Peep my resume">resume</a></li>
+                    <li><a target="_blank" href="https://github.com/mangoeee" title="Emery's GitHub">portfolio</a></li>
+                    <li><a href="./blog.html" title="Under Construction, oops.">a blog?</a></li>
+                    <li><a href="./contact.html" title="Contact me">let's chat!</a></li>
+                </ul>
+            </div>
         </nav>
 
         <div class="main home">
@@ -39,6 +47,7 @@
                         <ion-icon name="chevron-up-outline" class="arrow"></ion-icon>
                     </div>
                     <div id="tech" class="knowledge container">
+                        <p class="mobile">These are some of the technologies I've learned:</p>
                         <ul>
                             <li><ion-icon name="logo-html5" class="technology"></ion-icon></li>
                             <li><ion-icon name="logo-css3" class="technology"></ion-icon></li>
@@ -50,7 +59,8 @@
              </div>
         </div>
 
-        <script type="text/javascript" src="./resources/js/script.js"></script>
+        <script type="text/javascript" src="./resources/js/knowledge-transition.js"></script>
+        <script type="text/javascript" src="./resources/js/mobile-menu.js"></script>
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </body>
@@ -61,5 +71,6 @@
                 <li><a target="_blank" href="https://github.com/mangoeee"><ion-icon name="logo-github" class="social"></ion-icon></a></li>
             </ul>
         </div>
+        <p class="copyright">Made with &#10084;&#65039; from Chicago &copy; Emery Mangona</p>
     </footer>
 </html>
